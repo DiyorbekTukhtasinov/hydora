@@ -1,0 +1,44 @@
+.hero {
+  padding: 100px 0;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 190px;
+
+    &__info,
+    &__img {
+      width: calc(50% - 95px);
+    }
+    &__info {
+      margin-top: 70px;
+      h1 {
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 56.07px;
+        text-align: left;
+        color: #fff;
+        span {
+          background: linear-gradient(269deg, #c0b7e8 -3.72%, #8176af 82.17%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-align: center;
+        }
+      }
+      p {
+        margin: 36px 0 66px 0;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: left;
+        color: #fff;
+      }
+    }
+    &__shape-btn {
+      background-color: inherit;
+      border: none;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+  }
+}

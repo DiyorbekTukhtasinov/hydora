@@ -1,0 +1,33 @@
+.nav {
+  margin-top: 27px;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    text-align: center;
+    list-style: none;
+    gap: 40px;
+    color: var(--text-primary);
+  }
+  &__contact__btn {
+    background-color: inherit;
+    color: var(--text-primary);
+    border: 2px solid var(--text-primary);
+    margin-right: 38px;
+    transition: all 1s;
+
+    &:hover {
+      background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+      color: var(--text-secondary);
+      border: 1px solid #302c42;
+    }
+  }
+}

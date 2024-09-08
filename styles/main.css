@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  border-radius: 40px;
+  padding: 17px 38px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.main__btn {
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  color: var(--text-secondary);
+  border: 1px solid #302c42;
+  transition: all 2s;
+}
+.main__btn:hover {
+  background: inherit;
+  color: var(--text-primary);
+  border: 2px solid #fff;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h2,
+h3 {
+  font-size: 36px;
+  line-height: 43.88px;
+  text-align: left;
+}
+
+.introduction__wrapper,
+.about__wrapper,
+.reason__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  padding-bottom: 100px;
+}
+
+.introduction p,
+.about p,
+.reason p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.introduction h2,
+.reason h2 {
+  margin-bottom: -20px;
+}
+.introduction h3,
+.reason h3 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.introduction img,
+.reason img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+.container {
+  max-width: 1272px;
+  margin: auto;
+  width: 90%;
+}
+
+:root {
+  --bg-primary: #302c42;
+  --text-primary: #fff;
+  --text-secondary: #343045;
+}
+
+.hero {
+  padding: 100px 0;
+}
+.hero__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 190px;
+}
+.hero__wrapper__info, .hero__wrapper__img {
+  width: calc(50% - 95px);
+}
+.hero__wrapper__info {
+  margin-top: 70px;
+}
+.hero__wrapper__info h1 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 56.07px;
+  text-align: left;
+  color: #fff;
+}
+.hero__wrapper__info h1 span {
+  background: linear-gradient(269deg, #c0b7e8 -3.72%, #8176af 82.17%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.hero__wrapper__info p {
+  margin: 36px 0 66px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  color: #fff;
+}
+.hero__wrapper__shape-btn {
+  background-color: inherit;
+  border: none;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.contact {
+  padding-bottom: 100px;
+}
+.contact__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 82px;
+       column-gap: 82px;
+}
+.contact__wrapper button {
+  width: 349px;
+  height: 109px;
+  cursor: pointer;
+  border-radius: 90px;
+  background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211e2e 100%);
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  color: var(--text-primary);
+}
+.contact__wrapper img {
+  width: 70px;
+  height: 70px;
+  top: 21px;
+  left: 36px;
+  padding: 5.83px 14.58px 2.92px 14.58px;
+  vertical-align: middle;
+  margin-right: 34px;
+}
+
+.about__wrapper__info {
+  margin-top: 100px;
+}
+.about__wrapper__info p {
+  margin: 42px 0 30px 0;
+}
+.about img {
+  width: 524px;
+  height: 557px;
+}
+
+.nav {
+  margin-top: 27px;
+}
+.nav__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  text-align: center;
+  list-style: none;
+  gap: 40px;
+  color: var(--text-primary);
+}
+.nav__contact__btn {
+  background-color: inherit;
+  color: var(--text-primary);
+  border: 2px solid var(--text-primary);
+  margin-right: 38px;
+  transition: all 1s;
+}
+.nav__contact__btn:hover {
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  color: var(--text-secondary);
+  border: 1px solid #302c42;
+}/*# sourceMappingURL=main.css.map */
